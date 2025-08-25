@@ -18,7 +18,6 @@ public class CourseServiceImpl implements CourseService{
     private CourseRepository courseRepository;
     @Autowired
     private DepartmentRepository departmentRepository;
-    //Testing commit
 
     public List<CourseModel> getCoursesForDepartment(Long deptId){
 
